@@ -1,3 +1,8 @@
+"""Select Subcategories to be replaced by other existing subcategory
+
+Author Agustina Aboy @ https://twitter.com/agusaboy """
+__author__ = 'Agustina Aboy'
+
 #pylint: disable=E0401,C0103
 from pyrevit import revit
 from pyrevit import forms
