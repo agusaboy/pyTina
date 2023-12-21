@@ -1,0 +1,23 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Occupancy Type"
+        Width="350" ResizeMode="NoResize" SizeToContent="Height">
+    <StackPanel Margin="10">
+        <Label Content=" Select the desired Occ.Type form the list:" Margin="0,0,0,10" Height="26" />
+        <ListBox x:Name="listbox" Height="100" Cursor="Arrow">
+            <ListBoxItem Content="A-1"/>
+            <ListBoxItem Content="A-2"/>
+            <ListBoxItem Content="A-3" />
+            <ListBoxItem Content="A-4"/>
+            <ListBoxItem Content="A-5"/>
+            <ListBoxItem Content="B"/>
+            <ListBoxItem Content="E"/>
+            <ListBoxItem Content="F1"/>
+            <ListBoxItem Content="F2"/>
+            <ListBoxItem Content="M"/>
+            <ListBoxItem Content="S-1"/>
+            <ListBoxItem Content="S-2"/>
+        </ListBox>
+        <Button Content="Ok" Height="32" Margin="0,10,0,0" Click="set_occtype" />
+    </StackPanel>
+</Window>
